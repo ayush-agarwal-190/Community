@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marwari Festivals</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+        header {
+            background-color: #8b0000;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+        nav {
+            background-color: #b22222;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Georgia', serif;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        h2 {
+            color: #8b0000;
+            font-family: 'Georgia', serif;
+        }
+        .festival {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+            cursor: pointer;
+        }
+        .festival h3 {
+            color: #b22222;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .festival img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #8b0000;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+        footer a {
+            color: #ffebcd;
+            text-decoration: none;
+            font-family: 'Georgia', serif;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            background-color: #b22222;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Georgia', serif;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background-color: #8b0000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marwari Festivals</h1>
+    </header>
+
+    <main>
+        <a href="Home.html" class="back-button">Back to Home</a>
+
+        <section>
+            <h2>Festivals Celebrated by the Marwari Community</h2>
+            
+            <div class="festival" onclick="window.location.href='diwali.html';">
+                <h3>Diwali - The Festival of Lights</h3>
+                <img src="https://source.unsplash.com/featured/?diwali,lights" alt="Diwali Festival">
+                <p>Diwali is the most celebrated festival in the Marwari community. It marks the victory of light over darkness and good over evil. Click to read more about Diwali.</p>
+            </div>
+
+            <div class="festival" onclick="window.location.href='holi.html';">
+                <h3>Holi - The Festival of Colors</h3>
+                <img src="https://source.unsplash.com/featured/?holi,colors" alt="Holi Festival">
+                <p>Holi is a vibrant festival where people smear colors on each other and celebrate with joy and laughter. Click to read more about Holi.</p>
+            </div>
+
+            <div class="festival" onclick="window.location.href='teej.html';">
+                <h3>Teej - The Festival of Monsoon</h3>
+                <img src="https://source.unsplash.com/featured/?teej,festival" alt="Teej Festival">
+                <p>Teej is a significant festival for Marwari women, celebrated during the monsoon season. Click to read more about Teej.</p>
+            </div>
+
+            <div class="festival" onclick="window.location.href='ganesh-chaturthi.html';">
+                <h3>Ganesh Chaturthi - The Birth of Lord Ganesha</h3>
+                <img src="https://source.unsplash.com/featured/?ganesh,festival" alt="Ganesh Chaturthi">
+                <p>Ganesh Chaturthi marks the birth of Lord Ganesha, the remover of obstacles. Click to read more about Ganesh Chaturthi.</p>
+            </div>
+
+            <div class="festival" onclick="window.location.href='makar-sankranti.html';">
+                <h3>Makar Sankranti - The Harvest Festival</h3>
+                <img src="https://source.unsplash.com/featured/?makar,sankranti,festival" alt="Makar Sankranti">
+                <p>Makar Sankranti is celebrated to mark the transition of the Sun into the zodiac sign of Capricorn. Click to read more about Makar Sankranti.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Marwari Community | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
